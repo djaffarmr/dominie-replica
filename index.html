@@ -1,129 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dominie - Online Education Courses</title>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="/assets/style/my-style.css">
-    <script src="https://kit.fontawesome.com/2d50ee1e78.js" crossorigin="anonymous"></script>
-
-  </head>
-  <body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- ie=edge means ie should use the latest (edge) version of its rendering engine -->
+        <!-- chrome=1 means ie should use the chrome rendering engine if installed -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
+        <title>Dominie - Online Education Courses</title>
+        <!-- bootstrap 4.5.3 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <!-- owl carousel 2.3.4 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/2d50ee1e78.js" crossorigin="anonymous"></script>
+        <!-- personal style -->
+        <link rel="stylesheet" href="https://djaffarmr.github.io/assets/css/my-style.css">
+    </head>
+    <body>
     <header>
-      <!-- under construction -->
-      <!-- navigation start -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="mainNav">
-        <div class="container">
-          <!-- brand logo -->
-          <a class="navbar-brand" href="#pageTop">
-            <img src="/assets/img/logo.png" alt="dominie-logo">
-          </a>
-          <!-- toggler button for smaller screen menu -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- menu -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <!-- courses -->
-              <li class="nav-item active dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Courses <span class="sr-only">(current)</span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Business</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Design</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Development</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Marketing</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Math</a>
+        <!-- on progress -->
+        <!-- navigation start -->
+        <div class="navbar-area">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
+                <div class="container nav-container">
+                    <!-- brand logo -->
+                    <a class="navbar-brand" href="#">
+                        <img src="https://djaffarmr.github.io/dominie-replica/assets/img/logo.png" alt="dominie-logo">
+                    </a>
+                    <!-- toggler button for smaller screen -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- courses -->
+                    <div class="nav-left-part">
+                        <div class="header-cat-menu">
+                            <i class="fas fa-th"></i>
+                            <a href="#">Courses</a>
+                            <i class="fas fa-caret-down"></i>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-building"></i> Business</a></li>
+                                <li><a href="#"><i class="fas fa-th"></i> Design</a></li>
+                                <li><a href="#"><i class="fas fa-code"></i> Development</a></li>
+                                <li><a href="#"><i class="fas fa-clone"></i> Marketing</a></li>
+                                <li><a href="#"><i class="far fa-edit"></i> Math</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- nav menu -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto pl-5">
+                             <!-- home -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-drop nav-link dropdown-toggle p-0 menu-open" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Home
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Home 01</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Home 02</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Home 03</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Home 04</a>
+                                </div>
+                            </li>
+                            <!-- pages -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle p-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Pages
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">About</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Course</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Course View</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Course View 2</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Instructor</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Instructor Single</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Cart</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Checkout</a>
+                                </div>
+                            </li>
+                            <!-- blog -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle p-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Blog
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Blog</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Blog Single</a>
+                                </div>
+                            </li>
+                            <!-- contact -->
+                            <li class="nav-item">
+                                <a class="nav-link p-0" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <!-- login button -->
+                        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Login</button>
+                    </div>
                 </div>
-              </li>
-              <!-- home -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Home
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Home 01</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Home 02</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Home 03</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Home 04</a>
-                </div>
-              </li>
-              <!-- pages -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Pages
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">About</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Course</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Course View</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Course View 2</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Instructor</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Instructor Single</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Cart</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Checkout</a>
-                </div>
-              </li>
-              <!-- blog -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Blog
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Blog</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Blog Single</a>
-                </div>
-              </li>
-              <!-- contact -->
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-            <!-- login button -->
-            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Login</button>
-          </div>
+            </nav>
         </div>
-      </nav>
-      <!-- navigation end -->
+        <!-- navigation end -->
 
-      <!-- under construction -->
-      <!-- jumbotron start -->
-      <div class="container">
-        <div class="jumbotron">
-          <div class="col-xl-5 col-lg-7 col-md-10">
-            <h2>Explore your creativity.</h2>
-            <p>Don't wait! Take advantage of courses as low as $11.99.</p>
-            <!-- search form -->
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control form-control-lg mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            </form>
-          </div>
+        <!-- under construction -->
+        <!-- jumbotron start -->
+        <div class="container">
+            <div class="jumbotron">
+                <div class="col-xl-5 col-lg-7 col-md-10">
+                    <h2>Explore your creativity.</h2>
+                    <p>Don't wait! Take advantage of courses as low as $11.99.</p>
+                    <!-- search form -->
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control form-control-lg mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- jumbotron end -->
+        <!-- jumbotron end -->
     </header>
-  
     <main>
 
       <!-- under construction -->
@@ -171,7 +175,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-1.png" alt="thumbnail-1">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-1.png" alt="thumbnail-1">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -211,7 +215,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-2.png" alt="thumbnail-2">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-2.png" alt="thumbnail-2">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -251,7 +255,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-3.png" alt="thumbnail-3">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-3.png" alt="thumbnail-3">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -295,7 +299,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-4.png" alt="thumbnail-4">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-4.png" alt="thumbnail-4">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -335,7 +339,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-5.png" alt="thumbnail-5">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-5.png" alt="thumbnail-5">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -375,7 +379,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-6.png" alt="thumbnail-6">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-6.png" alt="thumbnail-6">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -419,7 +423,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-3.png" alt="thumbnail-3">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-3.png" alt="thumbnail-3">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -459,7 +463,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-4.png" alt="thumbnail-4">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-4.png" alt="thumbnail-4">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -499,7 +503,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-5.png" alt="thumbnail-5">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-5.png" alt="thumbnail-5">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -543,7 +547,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-2.png" alt="thumbnail-2">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-2.png" alt="thumbnail-2">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -583,7 +587,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-5.png" alt="thumbnail-5">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-5.png" alt="thumbnail-5">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -623,7 +627,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-6.png" alt="thumbnail-6">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-6.png" alt="thumbnail-6">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -667,7 +671,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-3.png" alt="thumbnail-3">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-3.png" alt="thumbnail-3">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -707,7 +711,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-2.png" alt="thumbnail-2">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-2.png" alt="thumbnail-2">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -747,7 +751,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-1.png" alt="thumbnail-1">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-1.png" alt="thumbnail-1">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -791,7 +795,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-2.png" alt="thumbnail-2">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-2.png" alt="thumbnail-2">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -831,7 +835,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-3.png" alt="thumbnail-3">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-3.png" alt="thumbnail-3">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -871,7 +875,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-4.png" alt="thumbnail-4">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-4.png" alt="thumbnail-4">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -913,7 +917,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-4 col-md-6">
             <div class="container text-center">
-              <img class="mb-4" src="/assets/img/icon-1.png" alt="icon-1">
+              <img class="mb-4" src="https://djaffarmr.github.io/dominie-replica/assets/img/icon-1.png" alt="icon-1">
               <h5>Practical Skills</h5>
               <p>Learn proven methods, processes, and best practices - and apply them to your work immediately.</p>
             </div>
@@ -921,7 +925,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="container text-center">
-              <img class="intro-icon" src="/assets/img/icon-2.png" alt="icon-2">
+              <img class="intro-icon" src="https://djaffarmr.github.io/dominie-replica/assets/img/icon-2.png" alt="icon-2">
               <h5>Practical Skills</h5>
               <p>Learn proven methods, processes, and best practices - and apply them to your work immediately.</p>
             </div>
@@ -929,7 +933,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="container text-center">
-              <img class="intro-icon" src="/assets/img/icon-3.png" alt="icon-3">
+              <img class="intro-icon" src="https://djaffarmr.github.io/dominie-replica/assets/img/icon-3.png" alt="icon-3">
               <h5>Practical Skills</h5>
               <p>Learn proven methods, processes, and best practices - and apply them to your work immediately.</p>
             </div>
@@ -961,7 +965,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-1.png" alt="thumbnail-1">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-1.png" alt="thumbnail-1">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -1001,7 +1005,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-2.png" alt="thumbnail-2">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-2.png" alt="thumbnail-2">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -1041,7 +1045,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-3.png" alt="thumbnail-3">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-3.png" alt="thumbnail-3">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -1081,7 +1085,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-4.png" alt="thumbnail-4">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-4.png" alt="thumbnail-4">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -1121,7 +1125,7 @@
                     <!-- bookmark icon -->
                     <a href="#"><i class="card-bookmark far fa-bookmark text-white"></i></a>
                     <!-- thumbnail image -->
-                    <img class="card-img-top" src="/assets/img/thumb-5.png" alt="thumbnail-5">
+                    <img class="card-img-top" src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-5.png" alt="thumbnail-5">
                   </div>
                   <!-- card details -->
                   <div class="card-body bg-light">
@@ -1164,10 +1168,10 @@
 
           <div class="card bg-light border-0">
             <div class="container feed-card-inner">
-              <img class="mb-4" src="/assets/img/icon-4.png" alt="icon-4">
+              <img class="mb-4" src="https://djaffarmr.github.io/dominie-replica/assets/img/icon-4.png" alt="icon-4">
               <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
               <div class="row ml-auto">
-                <img class="profile-icon mr-3" src="/assets/img/profile.png" alt="profile-img">
+                <img class="profile-icon mr-3" src="https://djaffarmr.github.io/dominie-replica/assets/img/profile.png" alt="profile-img">
                 <div class="profile-detail my-auto">
                   <h6 class="font-weight-bolder">Ramjan Ali Anik</h6>
                   <p class="mb-0">UI & UX Designer</p>
@@ -1179,7 +1183,7 @@
           <div class="card bg-dark border-0">
             <div class="container feed-card-inner text-white">
               <div class="row mb-4 ml-auto">
-                <img class="profile-icon mr-3" src="/assets/img/profile.png" alt="profile-img">
+                <img class="profile-icon mr-3" src="https://djaffarmr.github.io/dominie-replica/assets/img/profile.png" alt="profile-img">
                 <div class="profile-detail my-auto">
                   <h6 class="font-weight-bolder">Ramjan Ali Anik</h6>
                   <p class="mb-0">UI & UX Designer</p>
@@ -1192,7 +1196,7 @@
           <div class="card bg-dark border-0">
             <div class="container feed-card-inner text-white">
               <div class="row mb-4 ml-auto">
-                <img class="profile-icon mr-3" src="/assets/img/profile.png" alt="profile-img">
+                <img class="profile-icon mr-3" src="https://djaffarmr.github.io/dominie-replica/assets/img/profile.png" alt="profile-img">
                 <div class="profile-detail my-auto">
                   <h6 class="font-weight-bolder">Ramjan Ali Anik</h6>
                   <p class="mb-0">UI & UX Designer</p>
@@ -1204,10 +1208,10 @@
 
           <div class="card bg-light border-0">
             <div class="container feed-card-inner">
-              <img class="mb-4" src="/assets/img/icon-4.png" alt="icon-4">
+              <img class="mb-4" src="https://djaffarmr.github.io/dominie-replica/assets/img/icon-4.png" alt="icon-4">
               <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
               <div class="row ml-auto">
-                <img class="profile-icon mr-3" src="/assets/img/profile.png" alt="profile-img">
+                <img class="profile-icon mr-3" src="https://djaffarmr.github.io/dominie-replica/assets/img/profile.png" alt="profile-img">
                 <div class="profile-detail my-auto">
                   <h6 class="font-weight-bolder">Ramjan Ali Anik</h6>
                   <p class="mb-0">UI & UX Designer</p>
@@ -1218,10 +1222,10 @@
 
           <div class="card bg-light border-0">
             <div class="container feed-card-inner">
-              <img class="mb-4" src="/assets/img/icon-4.png" alt="icon-4">
+              <img class="mb-4" src="https://djaffarmr.github.io/dominie-replica/assets/img/icon-4.png" alt="icon-4">
               <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
               <div class="row ml-auto">
-                <img class="profile-icon mr-3" src="/assets/img/profile.png" alt="profile-img">
+                <img class="profile-icon mr-3" src="https://djaffarmr.github.io/dominie-replica/assets/img/profile.png" alt="profile-img">
                 <div class="profile-detail my-auto">
                   <h6 class="font-weight-bolder">Ramjan Ali Anik</h6>
                   <p class="mb-0">UI & UX Designer</p>
@@ -1233,7 +1237,7 @@
           <div class="card bg-dark border-0">
             <div class="container feed-card-inner text-white">
               <div class="row mb-4 ml-auto">
-                <img class="profile-icon mr-3" src="/assets/img/profile.png" alt="profile-img">
+                <img class="profile-icon mr-3" src="https://djaffarmr.github.io/dominie-replica/assets/img/profile.png" alt="profile-img">
                 <div class="profile-detail my-auto">
                   <h6 class="font-weight-bolder">Ramjan Ali Anik</h6>
                   <p class="mb-0">UI & UX Designer</p>
@@ -1259,7 +1263,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="blog border-0">
                 <div>
-                  <img src="/assets/img/thumb-7.png" class="card-img" alt="thumbnail-7">
+                  <img src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-7.png" class="card-img" alt="thumbnail-7">
                 </div>
                 <div class="position-relative">
                   <div class="blog-title d-inline-block position-absolute p-3">
@@ -1273,7 +1277,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="blog border-0">
                 <div>
-                  <img src="/assets/img/thumb-8.png" class="card-img" alt="thumbnail-8">
+                  <img src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-8.png" class="card-img" alt="thumbnail-8">
                 </div>
                 <div class="position-relative">
                   <div class="blog-title d-inline-block position-absolute p-3">
@@ -1287,7 +1291,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="blog border-0">
                 <div>
-                  <img src="/assets/img/thumb-9.png" class="card-img" alt="thumbnail-9">
+                  <img src="https://djaffarmr.github.io/dominie-replica/assets/img/thumb-9.png" class="card-img" alt="thumbnail-9">
                 </div>
                 <div class="position-relative">
                   <div class="blog-title d-inline-block position-absolute p-3">
@@ -1310,26 +1314,25 @@
         <div class="row">
           <div class="client-slider owl-carousel owl-theme owl-loaded owl-drag">
             <div class="item">
-              <img src="/assets/img/client-1.png" alt="client-1">
+              <img src="https://djaffarmr.github.io/dominie-replica/assets/img/client-1.png" alt="client-1">
             </div>
             <div class="item">
-              <img src="/assets/img/client-2.png" alt="client-2">
+              <img src="https://djaffarmr.github.io/dominie-replica/assets/img/client-2.png" alt="client-2">
             </div>
             <div class="item">
-              <img src="/assets/img/client-3.png" alt="client-3">
+              <img src="https://djaffarmr.github.io/dominie-replica/assets/img/client-3.png" alt="client-3">
             </div>
             <div class="item">
-              <img src="/assets/img/client-4.png" alt="client-4">
+              <img src="https://djaffarmr.github.io/dominie-replica//assets/img/client-4.png" alt="client-4">
             </div>
             <div class="item">
-              <img src="/assets/img/client-5.png" alt="client-5">
+              <img src="https://djaffarmr.github.io/dominie-replica//assets/img/client-5.png" alt="client-5">
             </div>
           </div>
         </div>
       </div>
       <!-- client area end -->
 
-      <!-- done -->
       <!-- footer area start -->
       <footer>
         <div class="container">
@@ -1461,10 +1464,10 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="thumb align-middle">
-                  <img src="/assets/img/logo.png" alt="dominie-logo">
+                  <img src="https://djaffarmr.github.io/dominie-replica/assets/img/logo.png" alt="dominie-logo">
                 </div>
               </div>
-              <div class="col-md-6 text-right my-auto">
+              <div class="col-md-6 text-md-right my-md-auto mt-3">
                 <p class="m-0">©2020 <span>Themefie®</span>. All Rights Reserved.</p>
               </div>
             </div>
@@ -1477,6 +1480,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
-    <script src="/assets/script/my-script.js"></script>
+    <script src="https://djaffarmr.github.io/dominie-replica/assets/js/my-script.js"></script>
   </body>
 </html>
