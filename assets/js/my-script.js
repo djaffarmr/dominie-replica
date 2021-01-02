@@ -26,17 +26,20 @@ $(document).ready(function(){
 
 $(window).on('scroll', function() {
 
-  let mainNavbar = $('.navbar-area');
-  if ($(window).scrollTop() >= 1) {
-    mainNavbar.addClass('navbar-area-fixed');
-  } else {
-    mainNavbar.removeClass('navbar-area-fixed');
-  }
+    let mainNavbar = $('.navbar-area');
 
-  let ScrollTop = $('.scroll-to-top');
-  if ($(window).scrollTop() > 1000) {
-    ScrollTop.fadeIn(1000);
-} else {
-    ScrollTop.fadeOut(1000);
-}
+    if ($(window).scrollTop() >= 1) {
+        mainNavbar.addClass('navbar-area-fixed');
+    } else {
+        mainNavbar.removeClass('navbar-area-fixed');
+    }
+
+    // let ScrollTop = $('.back-to-top');
+    // if ($(window).scrollTop() > 1000) {
+    //     ScrollTop.fadeIn(1000);
+    // } else {
+    //     ScrollTop.fadeOut(1000);
+    // }
 });
+
+console.log('Hello World!');
